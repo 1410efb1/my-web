@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="box">
+        <header class="header">
+            <div class="leftBtnBox">
+                <a href="index.html" class="fa fa-fw fa-chevron-left"></a>
+            </div>
+            <div class="centerContent">
+                <p>本周排行TOP10</p>
+            </div>
+            <div class="rightBtnBox">
+                <a href="#" class="fa fa-fw fa-search"></a>
+            </div>
+        </header>
+        <div class="nt">
+            <div class="main2_nav">
+                <ul>
+                    <li><a href="#" class="bj">专栏</a></li>
+                    <li><a href="#">作者</a></li>
+                </ul>
+            </div>
+            <div class="zz">
+                <div class="zhuan">
+                    <ul>
+                        <li><img src="images/7_1_03.jpg" alt=""></li>
+                        <li><img src="images/7_1_06.jpg" alt=""></li>
+                        <li><img src="images/7_1_08.jpg" alt=""></li>
+                    </ul>
+                    <dl>
+                        <dt><img src="images/7_1_10.jpg" alt=""></dt>
+                        <dd>
+                            <p>
+                                <span>FLORAL</span>
+                                <a href="#">4</a>
+                                <span>LIFE</span>
+                            </p>
+                            <p>邂逅|睡莲花开的…</p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="images/7_2_03.jpg" alt=""></dt>
+                        <dd>
+                            <p>
+                                <span>FLORAL</span>
+                                <a href="#">5</a>
+                                <span>LIFE</span>
+                            </p>
+                            <p>饮一杯花香，品一…</p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="images/7_2_06.jpg" alt=""></dt>
+                        <dd>
+                            <p>
+                                <span>FLORAL</span>
+                                <a href="#">6</a>
+                                <span>LIFE</span>
+                            </p>
+                            <p>心心念念的仙人掌…</p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="images/7_2_08.jpg" alt=""></dt>
+                        <dd>
+                            <p>
+                                <span>FLORAL</span>
+                                <a href="#">7</a>
+                                <span>LIFE</span>
+                            </p>
+                            <p>夏末的稳稳幸福</p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="images/7_2_10.jpg" alt=""></dt>
+                        <dd>
+                            <p>
+                                <span>FLORAL</span>
+                                <a href="#">8</a>
+                                <span>LIFE</span>
+                            </p>
+                            <p>淡色出尘一品香</p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="images/7_3_03.jpg" alt=""></dt>
+                        <dd>
+                            <p>
+                                <span>FLORAL</span>
+                                <a href="#">9</a>
+                                <span>七夕|晒礼物 “迎…</span>
+                            </p>
+                            <p></p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="images/7_3_06.jpg" alt=""></dt>
+                        <dd>
+                            <p>
+                                <span>FLORAL</span>
+                                <a href="#">10</a>
+                                <span>LIFE</span>
+                            </p>
+                            <p>礼貌|那些又美貌…</p>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="zuo">
+                    <dl>
+                        <dt><img src="images/7_4_03.jpg" alt=""></dt>
+                        <dd>花田小憩<a href="#">1</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="images/7_4_06.jpg" alt=""></dt>
+                        <dd>花生馅<a href="#">2</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="images/7_4_08.jpg" alt=""></dt>
+                        <dd>曹小花<a href="#">3</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="images/7_4_10.jpg" alt=""></dt>
+                        <dd>一窝时光<a href="#">4</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="images/7_4_12.jpg" alt=""></dt>
+                        <dd>CoCo<a href="#">5</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="images/7_4_14.jpg" alt=""></dt>
+                        <dd>KINFOLK中文版<a href="#">6</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="images/7_4_16.jpg" alt=""></dt>
+                        <dd>晚妹<a href="#">7</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="images/7_4_18.jpg" alt=""></dt>
+                        <dd>早安小意达<a href="#">8</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="images/7_4_20.jpg" alt=""></dt>
+                        <dd>咪娅酱<a href="#">9</a></dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="js/jquery.js"></script>
+<script>
+    $(".zz > div").eq(0).show().siblings().hide();
+    $(".main2_nav ul").on("click", "li", function () {
+        var idx = $(this).index();
+        //alert(idx);
+        //$(this).children().addClass("bj").siblings().children().removeClass("bj");
+        $(".zz > div").eq(idx).show().siblings().hide();
+    })
+
+    $(".main2_nav ul li").on("click", "a", function () {
+        $(this).addClass("bj").parent().siblings().children().removeClass("bj");
+    })
+</script>
